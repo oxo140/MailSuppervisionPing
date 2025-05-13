@@ -24,8 +24,9 @@ sudo apt update && sudo apt install -y python3 python3-pip curl
 Téléchargez le script et préparez le fichier des hôtes :
 
 ```bash
-curl -O https://exemple.com/ping_monitor.py
-curl -O https://exemple.com/hosts.txt
+sudo apt install curl
+curl -O https://raw.githubusercontent.com/oxo140/MailSuppervisionPing/main/ping_monitor.py
+curl -O https://raw.githubusercontent.com/oxo140/MailSuppervisionPing/main/hosts.txt
 ```
 
 > 📁 Placez le fichier `hosts.txt` dans le **même dossier** que `ping_monitor.py`.

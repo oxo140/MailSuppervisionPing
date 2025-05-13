@@ -1,0 +1,4 @@
+#example
+192.168.0.1 Routeur principal
+192.168.0.2 Serveur fichiers
+8.8.8.8 DNS Google
